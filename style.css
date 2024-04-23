@@ -1,0 +1,686 @@
+* {
+    margin: 0px;
+}
+
+.header .navbar .logo,
+.header .navbar .menu-links {
+    font-family: Roboto;
+}
+
+
+.header {
+    background-image: url(images/hero\ img.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    border-top: 1px solid grey;
+    position: relative;
+
+}
+
+
+.header .navbar {
+    width: 76%;
+    margin: 18px auto;
+    z-index: 100;
+    position: relative;
+}
+
+
+.header a {
+    text-decoration: none;
+}
+
+
+.clear-fix {
+    clear: both;
+}
+
+
+
+
+.header .navbar .logo a {
+    float: left;
+    font-size: 24px;
+    color: #ff305b;
+    font-weight: 800;
+}
+
+
+.header .navbar .menu-links {
+    float: right;
+}
+
+.header .navbar .menu-links ul li a {
+    color: white;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    padding: 20px 0;
+    line-height: 20px;
+}
+
+
+.header .navbar li {
+    display: inline-block;
+    padding: 8px;
+}
+
+
+.hero-text {
+    position: absolute;
+    left: 35%;
+    top: 40%;
+    text-align: center;
+    color: #FFF;
+    z-index: 20;
+
+}
+
+.hero-text h3 {
+    font-weight: 600;
+    margin: 0 0 10px;
+    font-size: 24px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+.hero-text h1 {
+    color: #ff305b;
+    font-size: 70px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0 0 10px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+
+.hero-text h4 {
+    font-size: 26px;
+    text-transform: capitalize;
+    font-weight: 300;
+    color: #fff;
+    line-height: 1.2;
+    font-family: 'Source Sans Pro', sans-serif;
+
+
+}
+
+
+.header .background-filter {
+    background-color: rgba(0, 0, 0, 0.8);
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    z-index: 10;
+}
+
+
+
+.personal-info .personal-photo {
+    float: left;
+    width: 40%;
+    position: relative;
+
+
+}
+
+.personal-info .personal-photo img {
+    width: 100%;
+    transition: transform 1s, opacity 1s;
+
+}
+
+
+.personal-info .personal-photo:hover .black-cover {
+    transform: translateX(100%);
+    opacity: 1;
+
+    /* Use on .black-cover to eliminate sudden transition effects */
+    /* transition: transform 1s, opacity 1s; */
+}
+
+.personal-info .black-cover {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    right: 100%;
+    top: 0;
+    opacity: 0;
+    transition: transform 1s, opacity 1s;
+
+
+}
+
+.clear-fix {
+    clear: both;
+}
+
+.black-cover {
+    height: 100px;
+    width: 100px;
+    background-color: beige;
+}
+
+.personal-info {
+    /* background-color: #97E7E1; */
+    width: 60%;
+    margin: 40px auto;
+    padding: 30px;
+    font-family: Roboto;
+}
+
+
+
+.personal-info .details {
+    width: 50%;
+    /* background-color: #A1C398; */
+    float: right;
+    padding: 10px;
+    margin: 5px
+}
+
+.personal-info .details h2 {
+    position: relative;
+}
+
+
+
+.personal-info .details h2 {
+    font-size: 34px;
+    font-weight: 600;
+    line-height: 22px;
+    margin-bottom: 25px;
+    padding-left: 13px;
+    text-transform: uppercase;
+    margin: 0 0 10px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #333;
+    font-weight: 500;
+}
+
+
+.personal-info .details p {
+    border-bottom: 1px dashed #999999;
+    margin-bottom: 25px;
+    padding-bottom: 25px;
+    margin: 20px 0 15px;
+    color: #555555;
+}
+
+
+.personal-info .details ul li {
+    margin: 15px;
+    display: inline-block;
+}
+
+.personal-info .details ul {
+    padding: 0px;
+
+}
+
+.personal-info .buttons {
+    margin: 20px;
+}
+
+
+.personal-info .details .unordered-list ul {
+    float: left;
+    width: 50%;
+}
+
+
+/* .personal-info .details .right-ul {
+    float: left;
+} */
+
+.personal-info .buttons a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #ff305b;
+    padding: 15px;
+    border-radius: 4px;
+    margin: 10px;
+}
+
+
+
+.our-services {
+    background-color: #f1f1f1;
+    margin: auto;
+}
+
+
+.our-services .container {
+    width: 80%;
+    margin: auto;
+}
+
+
+.our-services .container .main-text {
+    text-align: center;
+    padding: 40px 0px 10px 0px;
+}
+
+.our-services .card {
+    width: 18%;
+    float: left;
+    margin: 15px;
+    padding: 25px;
+    text-align: center;
+}
+
+
+.our-services .cards .card i {
+    padding: 35px;
+    color: #ff305b;
+}
+
+.our-services .cards .card h3 {
+    margin: 5px;
+    padding: 2px;
+}
+
+
+.our-services {
+    font-family: Roboto;
+    position: relative;
+}
+
+
+
+
+
+.our-services .container .main-text h2::after {
+    position: absolute;
+    content: "";
+    background-color: red;
+    width: 60px;
+    height: 1px;
+    right: 48%;
+    top: 22%;
+}
+
+
+
+/* 
+.portfolio .main-heading {
+    text-align: center;
+} */
+
+
+
+.portfolio {
+    width: 80%;
+    margin: 40px auto 0px;
+    position: relative;
+}
+
+
+.portfolio h2 {
+    text-align: center;
+    margin: 0 0 10px;
+    font-family: 'Source Sans Pro', sans-serif;
+    /* font-size: 40px; */
+    /* font-weight: 800; */
+    /* line-height: 30px; */
+    margin-bottom: 5px;
+    padding-bottom: 30px;
+    position: relative;
+    text-transform: capitalize;
+}
+
+.portfolio h2::after {
+    content: "";
+    background-color: red;
+    position: absolute;
+    width: 60px;
+    height: 1px;
+    right: 47%;
+    top: 64%;
+}
+
+
+.portfolio .buttons {
+    width: 25%;
+    margin: 0 auto;
+}
+
+
+.portfolio .buttons button {
+    cursor: pointer;
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: medium none;
+    color: #333333;
+    font-size: 16px;
+}
+
+
+.portfolio .buttons button:nth-child(1) {
+    color: #ff305b;
+}
+
+
+
+.portfolio .images .image {
+    width: 30%;
+    margin: 17px;
+    float: left;
+}
+
+.portfolio .images img {
+    width: 100%;
+}
+
+
+
+.accomplishments {
+    background-color: #f1f1f1;
+    margin-top: 40px;
+}
+
+.accomplishments .container {
+    width: 80%;
+    margin: 25px auto;
+    padding: 40px;
+}
+
+
+
+
+.accomplishments .container div {
+    width: 25%;
+    float: left;
+    text-align: center;
+}
+
+.accomplishments .container i {
+    color: #ff305b;
+    font-size: 26px;
+    margin: 10px;
+    padding: 5px;
+
+}
+
+.accomplishments .container h3 {
+    font-size: 26px;
+    font-weight: 800;
+    margin: 0 0 10px;
+    font-family: Roboto;
+    color: #000;
+    line-height: 1.1;
+}
+
+.accomplishments .container h5 {
+    font-weight: 600;
+    font-family: Roboto;
+    margin-bottom: 40px;
+
+}
+
+
+
+.feedback {
+    width: 50%;
+    margin: 40px auto;
+}
+
+/* .feedback .personal-card .client-photo {
+    width: 12%;
+
+} */
+/* 
+.feedback .personal-card .client-photo img {
+    width: 100%;
+} */
+
+.feedback h2 {
+    text-align: center;
+}
+
+.feedback .personal-card {
+    border: 1px solid grey;
+    margin-top: 18px;
+}
+
+
+
+
+.feedback .personal-details {
+    background-color: rebeccapurple;
+}
+
+.our-blog .heading-text h2 {
+    text-align: center;
+    font-size: 26px;
+    font-weight: 800;
+    margin: 0 0 10px;
+    font-family: Roboto;
+    color: #000;
+    line-height: 1.1;
+    position: relative;
+}
+
+
+
+.our-blog .heading-text h2::after {
+    content: "";
+    background-color: red;
+    position: absolute;
+    width: 60px;
+    height: 2px;
+    right: 48%;
+    top: 100%;
+}
+
+
+.blog-posts .blog {
+    /* background-color: antiquewhite; */
+    width: 30%;
+    float: left;
+    margin: 15px;
+    border: 0;
+
+}
+
+
+.blog-posts .blog img {
+    width: 100%;
+}
+
+
+/* 
+.portfolio .sub-headings {
+    background-color: aqua;
+} */
+
+/* 
+.portfolio .sub-headings ul {
+    background-color: #973535;
+    text-align: center;
+} */
+
+
+/* 
+.portfolio .sub-headings .ul-sub-headings {
+    text-align: center;
+} */
+
+/* 
+.portfolio .sub-headings ul li {
+    float: left;
+    list-style: none;
+    background-color: #FC819E;
+    padding: 5px;
+    margin: 0px 15px;
+} */
+
+
+.portfolio h2 {
+    font-family: Roboto;
+}
+
+.our-blog .container {
+    width: 80%;
+    margin: 0px auto;
+}
+
+.our-blog {
+    /* width: 80%; */
+    margin: 40px auto;
+    background-color: #f1f1f1;
+}
+
+.our-blog a {
+    text-decoration: none;
+    color: black;
+}
+
+.our-blog a:hover {
+    color: #ff305b;
+    transition: color 500ms;
+}
+
+.our-blog .container .blog-posts .blog {
+    font-family: Roboto;
+    background-color: #fff;
+
+}
+
+
+.our-blog .container .blog-posts .blog p {
+    padding: 5px;
+    margin: 2px;
+}
+
+
+.our-blog .container .blog-posts .blog a {
+    padding: 5px;
+    margin: 2px;
+}
+
+.contact-us .heading-text h2 {
+    font-family: Roboto;
+    text-align: center;
+    position: relative;
+}
+
+
+.contact-us .heading-text h2::after {
+    content: "";
+    background-color: red;
+    position: absolute;
+    width: 60px;
+    height: 1px;
+    right: 46%;
+    top: 99%;
+}
+
+.contact-us .form input {
+    padding: 5px;
+}
+
+.contact-us {
+    width: 50%;
+    margin: 40px auto;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+}
+
+.form-control input {
+    height: 40px;
+    margin: 0px;
+}
+
+
+.contact-us .form {
+    margin-top: 40px;
+}
+
+.contact-us .form .name {
+    width: 40%;
+    display: inline;
+    margin: 0px 40px;
+
+}
+
+.contact-us .form .email {
+    float: left;
+    width: 40%;
+}
+
+.form .subject {
+    margin: 20px 0px;
+}
+
+
+.contact-us button {
+    background-color: #ff305b;
+    color: #ffffff;
+    padding: 0 20px;
+    height: 40px;
+    line-height: 38px;
+    text-transform: uppercase;
+    font-family: Roboto;
+    border-radius: 5px;
+
+}
+
+
+.footer {
+    background-color: #333333;
+}
+
+
+.footer .icons-links {
+    margin-top: 40px;
+}
+
+.footer .icons-links i {
+    color: white;
+}
+
+.footer .icons-links {
+    width: 30%;
+    margin: 40px auto;
+}
+
+
+
+
+.footer .icons-links ul li {
+    float: left;
+    list-style-type: none;
+    width: 20%;
+    margin: 10px;
+    text-align: center;
+}
+
+
+.footer p a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer p {
+    text-align: center;
+    color: white;
+}
